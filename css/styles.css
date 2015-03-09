@@ -1,0 +1,79 @@
+body {
+	color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #E6EBF0;
+}
+
+.welcome, .instructions, .maintain-list {
+	width: 20em;
+	padding: 10px;
+	margin: 10px auto;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.welcome h1, .instructions h1, .maintain-list h1 {
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 25px;
+	font-weight: 500;
+}
+
+.welcome p, .instructions p, .maintain-list p {
+	text-align: center;
+}
+
+.welcome input, .welcome button, .instructions input, .maintain-list button, .maintain-list input, .instructions button {
+	display: block;
+	margin: 10px auto;
+	width: 12em;
+	padding: 0.3em 0.9em;
+	border-radius: 15px;
+	font-size: 1em;
+	border: 1px solid green;
+}
+
+.welcome input, .instructions input, .maintain-list input {
+	width: 10em;
+}
+
+.welcome input, .instructions input, .maintain-list input {
+	width: 12em;
+}
+
+.maintain-list ul li {
+
+}
+
+.maintain-list ul {
+	margin: 40px auto;
+	border: 1px solid;
+}
+
+.maintain-list li {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 0.5em;
+}
+
+.list {
+	width: 180px;
+	padding: 0.5em 1em;
+	background-color: chocolate;
+	border-radius: 15px;
+}
+
+.maintain-list a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+
+
+
+
+
